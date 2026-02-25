@@ -1,0 +1,56 @@
+title: gherardo varando
+description: Gherardo personal web page
+email: gherardo.varando@gmail.com
+  
+destination: _siteuv/web/
+
+baseurl: "/varando" # the subpath of your site, e.g. /blog
+url: "https://www.uv.es" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  gherardovarando
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+### defined for web-group-theme
+remote_theme: gherardovarando/web-group-theme
+
+## set  timezone for handling default TZ for events and seminars
+timezone: Europe/Madrid
+
+## 
+future: true
+collections:
+  talks:
+    output: true
+  news:
+    output: true
+
+## short name of the group
+short: ""
+## affiliation 
+institution:
+        name: Universitat de Valeència 
+        link: https://www.uv.es/
+
+## list here the path of bib files     
+bibfiles: 
+      - "bibtex/bibtex_gherardovarando.bib"
+
+
+#personal links
+links: 
+    - name: scopus
+      url: https://www.scopus.com/authid/detail.uri?authorId=56483301900
+    - name: arXiv
+      url: https://arxiv.org/a/varando_g_1.html
+    - name: dblp
+      url: https://dblp1.uni-trier.de/pers/hd/v/Varando:Gherardo
+    - name: Scholar
+      url: https://scholar.google.es/citations?user=ALjiTg0AAAAJ
+    - name: ORCID
+      url: https://orcid.org/0000-0002-6708-1103
+    - name: github
+      url: https://github.com/gherardovarando
+    - name: UV
+      url: https://www.uv.es/uvweb/universitat/ca/fitxa-persona-1285950309813.html?p2=varando
