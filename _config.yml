@@ -1,9 +1,11 @@
 title: gherardo varando
 description: Gherardo personal web page
 email: gherardo.varando@gmail.com
+  
+destination: _site/web/
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gherardovarando.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/varando" # the subpath of your site, e.g. /blog
+url: "https://www.uv.es" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gherardovarando
 
 plugins:
